@@ -1,6 +1,9 @@
 # Regressão Linear com Box‑Cox - Estudo de Caso com o Dataset Auto MPG
 
 Este projeto apresenta uma análise completa do dataset *Auto MPG*, utilizando técnicas de modelagem de regressão linear para prever o consumo de combustível (mpg). Foram exploradas desde a leitura e tratamento dos dados, passando por uma análise exploratória (univariada e bivariada), até a aplicação da transformação Box‑Cox na variável resposta. Além disso, foi considerada uma abordagem alternativa com Análise de Componentes Principais (PCA) para contornar problemas de multicolinearidade.  
+
+**Fonte de Dados: UCI Machine Learning Repository - Auto MPG Data** - https://archive.ics.uci.edu/ml/datasets/auto+mpg 
+
 **Autor:** Rogério Coelho  
 **Data:** 2025-02-11
 
