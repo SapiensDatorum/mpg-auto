@@ -1,5 +1,0 @@
-"0",""
-"0","# Para o modelo com PCA"
-"0","plot(fitted(modelo_pca), residuals(modelo_pca),"
-"0","     xlab = ""Valores Ajustados"", ylab = ""Resíduos"","
-"0","     main = ""Resíduos vs Valores Ajustados (PCA)"")"

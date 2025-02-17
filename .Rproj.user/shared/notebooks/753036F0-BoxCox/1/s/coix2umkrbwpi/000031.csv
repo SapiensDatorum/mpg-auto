@@ -1,3 +1,0 @@
-"0",""
-"0","# Gráfico das variáveis"
-"0","fviz_pca_var(pca_result, col.var = ""contrib"", gradient.cols = c(""blue"", ""yellow"", ""red""), repel = TRUE)"

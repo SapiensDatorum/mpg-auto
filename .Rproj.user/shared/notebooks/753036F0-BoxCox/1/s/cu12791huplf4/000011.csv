@@ -1,2 +1,0 @@
-"0",""
-"0","hist(residuals(lm_mpg_aic), main = ""Histograma dos Resíduos"", xlab = ""Resíduos"")"

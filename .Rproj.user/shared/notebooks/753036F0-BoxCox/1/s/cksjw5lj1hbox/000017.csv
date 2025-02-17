@@ -1,3 +1,0 @@
-"0","library(PerformanceAnalytics)"
-"0","analise_correl <- select(df_auto, horsepower, displacement, weight, acceleration)"
-"0","chart.Correlation((analise_correl),histogram=TRUE)"

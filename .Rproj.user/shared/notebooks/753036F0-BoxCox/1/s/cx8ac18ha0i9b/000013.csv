@@ -1,7 +1,0 @@
-"0",""
-"0","media_residuos <- mean(residuals(lm_mpg_aic))"
-"0","print(media_residuos) # Deve ser próximo de 0"
-"1","[1]"
-"1"," -8.529988e-18"
-"1","
-"
