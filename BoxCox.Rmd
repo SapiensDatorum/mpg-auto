@@ -386,7 +386,7 @@ hist(residuals(lm_mpg_aic), main = "Histograma dos Resíduos", xlab = "Resíduos
 # Teste de normalidade (Shapiro-Wilk)
 resultado <- shapiro.test(residuals(lm_mpg_aic))
 print(resultado$p.value)
-# Não passou no teste de normalidade p-valor > 0.05 
+# Passou raspando no teste de normalidade p-valor > 0.05 
 
 # Verificar usando o teste de normalidade do KolmogorovSmirnov
 
@@ -400,8 +400,8 @@ ks_test <- ks.test(residuos, "pnorm", mean = media_residuos, sd = desvio_residuo
 print(ks_test)
 ```
 
-### Não passou no teste de normalidade ao nível de significância de 5%
-### Shapiro-Wilk nem Kolmogorov-Smirnov
+### Passou no teste de normalidade ao nível de significância de 5%
+### Shapiro-Wilk e Kolmogorov-Smirnov
 
 ## Normalidade dos resíduos
 
@@ -501,6 +501,10 @@ library(lmtest)
 bptest(modelo_pca)
 
 ```
+## Não passou no teste de normalidade dos resíduos
+- para um modelo de regressão não estaria correto, pois não atende a normalidade dos resíduos.
+- por outro lado os valores de qualidade e acurácia são bem melhores.
+- como modelo para uso em machine learning seria interessante testá-lo em produção, mas como modelo estatístico o criado por step wise seria melhor por atender aos pressupostos estatísticos.
 
 ## Qualidade e Acurácia dos modelos
 
