@@ -4,7 +4,7 @@ Este projeto apresenta uma análise completa do dataset *Auto MPG*, utilizando t
 
 **Fonte de Dados: UCI Machine Learning Repository - Auto MPG Data** - https://archive.ics.uci.edu/ml/datasets/auto+mpg 
 
-**Autor:** Rogério Coelho  
+**Autor:** Rogério R R Coelho  
 **Data:** 2025-02-11
 
 ---
